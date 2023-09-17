@@ -1,7 +1,12 @@
 # Airflow-UI
 
-Kinisi Airflow UI
+Kinisi Airflow UI is a Web base UI to design airflow DAGS graphically.  It is a containerised application with Notebook and Airflow wbeserver built in to allow quick development of modules.  [See this link for more information and videos](www.kinisi.biz)
 
+This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  This test environment provides the following containers :
+
+- DB2
+- MySQL
+- Rest API server
 
 # Requirements 
 
@@ -11,20 +16,10 @@ A VM with the following installed ( as root ) :
 - apt install docker -y
 - apt install docker-compose -y
 - git clone https://chquek:token@github.com/chquek/Airflow-UI.git
-
-Cd to the Airflow-UI folder
-
-- cp DONOTREMOVE/menu.py /usr/local/bin
 - docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
+- usermod -aG docker quekch ( if running as non-root )
 
-# This step only if require to run docker as non-root.  Run the following as root
-
-- groupadd docker ( if does not exist in /etc/group )
-- usermod -aG docker quekch
-
-## Folders /home/kinisi
-
-A user /home/kinisi with the following directories :
+## Folders Airflow-UI
 
 Folder | Description | Exported to 
 --- | --- | --- |
@@ -51,7 +46,17 @@ export SERVERNAME=<hostname>
 export VALIDATE=YES       
 ```
 
-## docker compose 
+## Run
+
+- docker-compose up -d
+
+- takes a while for all containers to start up :  nginx , postgres , airflow , designer , notebook
+
+- access via https://hostname
 
 
-## Sample files for /home/kinisi
+## Restrictions
+
+- Only 5 new DAGs
+- Each DAG up to 10 tasks
+- Contact admin@kinisi.biz to increase limits
