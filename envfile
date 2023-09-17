@@ -5,4 +5,3 @@ export USERNAME=admin
 export USERPASS=admin
 export AIRFLOW_VERSION=2.5.3
 export VALIDATE=YES
-export GENALL=NO
