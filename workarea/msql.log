@@ -1,0 +1,894 @@
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:48:17.245481+00:00: manual__2023-06-16T01:48:17.245481+00:00, state:success, queued_at: 2023-06-16 01:48:55.340940+00:00. externally triggered: True>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:00:30.064630+00:00: scheduled__2023-06-16T00:00:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:34.118351+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:00:00.064630+00:00: scheduled__2023-06-16T00:00:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:33.968512+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:01:00.064630+00:00: scheduled__2023-06-16T00:01:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:35.655199+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:01:30.064630+00:00: scheduled__2023-06-16T00:01:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:36.578540+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:02:00.064630+00:00: scheduled__2023-06-16T00:02:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:36.864937+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:03:00.064630+00:00: scheduled__2023-06-16T00:03:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:37.473053+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:04:30.064630+00:00: scheduled__2023-06-16T00:04:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:39.679407+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:05:30.064630+00:00: scheduled__2023-06-16T00:05:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:42.504278+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:06:00.064630+00:00: scheduled__2023-06-16T00:06:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:42.684873+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:07:30.064630+00:00: scheduled__2023-06-16T00:07:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:44.580005+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:08:00.064630+00:00: scheduled__2023-06-16T00:08:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:45.989293+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:08:30.064630+00:00: scheduled__2023-06-16T00:08:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:46.828096+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:09:00.064630+00:00: scheduled__2023-06-16T00:09:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:47.055456+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:10:00.064630+00:00: scheduled__2023-06-16T00:10:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:48.174476+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:10:30.064630+00:00: scheduled__2023-06-16T00:10:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:49.658561+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:11:00.064630+00:00: scheduled__2023-06-16T00:11:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:51.079336+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:12:00.064630+00:00: scheduled__2023-06-16T00:12:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:51.758144+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:13:00.064630+00:00: scheduled__2023-06-16T00:13:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:53.496818+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:13:30.064630+00:00: scheduled__2023-06-16T00:13:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:56.373826+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:14:30.064630+00:00: scheduled__2023-06-16T00:14:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:56.951647+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:15:00.064630+00:00: scheduled__2023-06-16T00:15:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:58.505821+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:15:30.064630+00:00: scheduled__2023-06-16T00:15:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:58.741884+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:17:00.064630+00:00: scheduled__2023-06-16T00:17:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:01.254988+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:17:30.064630+00:00: scheduled__2023-06-16T00:17:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:02.747656+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:18:00.064630+00:00: scheduled__2023-06-16T00:18:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:02.984668+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:18:30.064630+00:00: scheduled__2023-06-16T00:18:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:04.855108+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:19:00.064630+00:00: scheduled__2023-06-16T00:19:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:07.318123+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:19:30.064630+00:00: scheduled__2023-06-16T00:19:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:07.808232+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:21:00.064630+00:00: scheduled__2023-06-16T00:21:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:10.415954+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:21:30.064630+00:00: scheduled__2023-06-16T00:21:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:11.862544+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:22:00.064630+00:00: scheduled__2023-06-16T00:22:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:13.379504+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:22:30.064630+00:00: scheduled__2023-06-16T00:22:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:14.081096+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:23:00.064630+00:00: scheduled__2023-06-16T00:23:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:15.578609+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:24:00.064630+00:00: scheduled__2023-06-16T00:24:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:17.308068+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:23:30.064630+00:00: scheduled__2023-06-16T00:23:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:17.070974+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:24:30.064630+00:00: scheduled__2023-06-16T00:24:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:19.329293+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:25:30.064630+00:00: scheduled__2023-06-16T00:25:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:22.386092+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:26:00.064630+00:00: scheduled__2023-06-16T00:26:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:24.633495+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:26:30.064630+00:00: scheduled__2023-06-16T00:26:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:28.005907+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:27:00.064630+00:00: scheduled__2023-06-16T00:27:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:29.920365+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:27:30.064630+00:00: scheduled__2023-06-16T00:27:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:32.583913+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:28:00.064630+00:00: scheduled__2023-06-16T00:28:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:36.354781+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:28:30.064630+00:00: scheduled__2023-06-16T00:28:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:38.279313+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:29:00.064630+00:00: scheduled__2023-06-16T00:29:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:40.352745+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:29:30.064630+00:00: scheduled__2023-06-16T00:29:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:43.044849+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:51:18.504330+00:00: scheduled__2023-06-16T01:51:18.504330+00:00, state:success, queued_at: 2023-06-16 01:51:48.538631+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:51:48.630734+00:00: scheduled__2023-06-16T01:51:48.630734+00:00, state:success, queued_at: 2023-06-16 01:52:18.705625+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:52:19.370538+00:00: scheduled__2023-06-16T01:52:19.370538+00:00, state:success, queued_at: 2023-06-16 01:52:49.443820+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:52:49.459372+00:00: scheduled__2023-06-16T01:52:49.459372+00:00, state:success, queued_at: 2023-06-16 01:53:19.552530+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:53:20.209136+00:00: scheduled__2023-06-16T01:53:20.209136+00:00, state:success, queued_at: 2023-06-16 01:53:50.298110+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:53:50.209136+00:00: scheduled__2023-06-16T01:53:50.209136+00:00, state:success, queued_at: 2023-06-16 01:54:20.258092+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:54:20.828827+00:00: scheduled__2023-06-16T01:54:20.828827+00:00, state:success, queued_at: 2023-06-16 01:54:50.857885+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:54:51.568390+00:00: scheduled__2023-06-16T01:54:51.568390+00:00, state:success, queued_at: 2023-06-16 01:55:21.682105+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:07:00.064630+00:00: scheduled__2023-06-16T00:07:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:43.164771+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:09:30.064630+00:00: scheduled__2023-06-16T00:09:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:47.297156+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:55:22.326410+00:00: scheduled__2023-06-16T01:55:22.326410+00:00, state:success, queued_at: 2023-06-16 01:55:52.436938+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:12:30.064630+00:00: scheduled__2023-06-16T00:12:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:52.128119+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:14:00.064630+00:00: scheduled__2023-06-16T00:14:00.064630+00:00, state:success, queued_at: 2023-06-16 01:50:56.588948+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:16:30.064630+00:00: scheduled__2023-06-16T00:16:30.064630+00:00, state:success, queued_at: 2023-06-16 01:50:59.570076+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:20:30.064630+00:00: scheduled__2023-06-16T00:20:30.064630+00:00, state:success, queued_at: 2023-06-16 01:51:08.684918+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 00:25:00.064630+00:00: scheduled__2023-06-16T00:25:00.064630+00:00, state:success, queued_at: 2023-06-16 01:51:19.651717+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:55:52.326410+00:00: scheduled__2023-06-16T01:55:52.326410+00:00, state:success, queued_at: 2023-06-16 01:56:22.370494+00:00. externally triggered: False>
+QCH : dag_success_callback : /usr/local/airflow/kinisi/msql.py
+<DagRun DAG1 @ 2023-06-16 01:56:22.558524+00:00: scheduled__2023-06-16T01:56:22.558524+00:00, state:success, queued_at: 2023-06-16 01:56:52.687788+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DAG1 @ 2023-06-16 01:56:53.244557+00:00: scheduled__2023-06-16T01:56:53.244557+00:00, state:success, queued_at: 2023-06-16 01:57:23.309762+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DAG1 @ 2023-06-16 01:57:23.867145+00:00: scheduled__2023-06-16T01:57:23.867145+00:00, state:success, queued_at: 2023-06-16 01:57:53.958948+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DAG1 @ 2023-06-16 01:57:54.327705+00:00: scheduled__2023-06-16T01:57:54.327705+00:00, state:success, queued_at: 2023-06-16 01:58:24.432736+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DAG1 @ 2023-06-16 01:58:24.667574+00:00: scheduled__2023-06-16T01:58:24.667574+00:00, state:success, queued_at: 2023-06-16 01:58:54.738915+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:02:57.560300+00:00: scheduled__2023-06-16T02:02:57.560300+00:00, state:failed, queued_at: 2023-06-16 02:03:27.683386+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 01:55:52.411937+00:00: scheduled__2023-06-16T01:55:52.411937+00:00, state:failed, queued_at: 2023-06-16 01:56:22.667352+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 01:58:54.916152+00:00: scheduled__2023-06-16T01:58:54.916152+00:00, state:failed, queued_at: 2023-06-16 01:59:24.977896+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 01:59:25.289821+00:00: scheduled__2023-06-16T01:59:25.289821+00:00, state:failed, queued_at: 2023-06-16 01:59:55.363021+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 01:59:56.569035+00:00: scheduled__2023-06-16T01:59:56.569035+00:00, state:failed, queued_at: 2023-06-16 02:00:26.609352+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:00:27.249082+00:00: scheduled__2023-06-16T02:00:27.249082+00:00, state:failed, queued_at: 2023-06-16 02:00:57.380467+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:00:27.012217+00:00: scheduled__2023-06-16T02:00:27.012217+00:00, state:failed, queued_at: 2023-06-16 02:00:57.157950+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:01:27.374402+00:00: scheduled__2023-06-16T02:01:27.374402+00:00, state:failed, queued_at: 2023-06-16 02:01:57.477493+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:01:57.374402+00:00: scheduled__2023-06-16T02:01:57.374402+00:00, state:failed, queued_at: 2023-06-16 02:02:27.473690+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:02:27.415907+00:00: scheduled__2023-06-16T02:02:27.415907+00:00, state:failed, queued_at: 2023-06-16 02:02:57.466445+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:00:57.249082+00:00: scheduled__2023-06-16T02:00:57.249082+00:00, state:failed, queued_at: 2023-06-16 02:03:35.484812+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:03:28.307762+00:00: scheduled__2023-06-16T02:03:28.307762+00:00, state:failed, queued_at: 2023-06-16 02:03:58.439199+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:03:58.903686+00:00: scheduled__2023-06-16T02:03:58.903686+00:00, state:failed, queued_at: 2023-06-16 02:04:29.048483+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:04:28.986263+00:00: scheduled__2023-06-16T02:04:28.986263+00:00, state:failed, queued_at: 2023-06-16 02:04:59.023151+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:04:59.216326+00:00: scheduled__2023-06-16T02:04:59.216326+00:00, state:failed, queued_at: 2023-06-16 02:05:29.338079+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:05:31.378281+00:00: scheduled__2023-06-16T02:05:31.378281+00:00, state:failed, queued_at: 2023-06-16 02:06:01.425195+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:06:01.941428+00:00: scheduled__2023-06-16T02:06:01.941428+00:00, state:failed, queued_at: 2023-06-16 02:06:32.027233+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:06:34.238400+00:00: scheduled__2023-06-16T02:06:34.238400+00:00, state:failed, queued_at: 2023-06-16 02:07:04.276426+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:08:59.181145+00:00: scheduled__2023-06-16T02:08:59.181145+00:00, state:failed, queued_at: 2023-06-16 02:09:29.275351+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:09:30.217292+00:00: scheduled__2023-06-16T02:09:30.217292+00:00, state:failed, queued_at: 2023-06-16 02:10:00.264785+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:10:00.955766+00:00: scheduled__2023-06-16T02:10:00.955766+00:00, state:failed, queued_at: 2023-06-16 02:10:31.030676+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:10:32.039913+00:00: scheduled__2023-06-16T02:10:32.039913+00:00, state:failed, queued_at: 2023-06-16 02:11:02.083995+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:11:02.039913+00:00: scheduled__2023-06-16T02:11:02.039913+00:00, state:failed, queued_at: 2023-06-16 02:11:32.060666+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:11:32.354533+00:00: scheduled__2023-06-16T02:11:32.354533+00:00, state:failed, queued_at: 2023-06-16 02:12:02.465556+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:12:02.805440+00:00: scheduled__2023-06-16T02:12:02.805440+00:00, state:failed, queued_at: 2023-06-16 02:12:32.849135+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:12:32.956640+00:00: scheduled__2023-06-16T02:12:32.956640+00:00, state:failed, queued_at: 2023-06-16 02:13:03.038989+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:13:10.765617+00:00: scheduled__2023-06-16T02:13:10.765617+00:00, state:failed, queued_at: 2023-06-16 02:13:40.792907+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:13:40.942283+00:00: scheduled__2023-06-16T02:13:40.942283+00:00, state:failed, queued_at: 2023-06-16 02:14:10.999177+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:14:11.411957+00:00: scheduled__2023-06-16T02:14:11.411957+00:00, state:failed, queued_at: 2023-06-16 02:14:41.437830+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:14:42.944271+00:00: scheduled__2023-06-16T02:14:42.944271+00:00, state:failed, queued_at: 2023-06-16 02:15:13.023863+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:15:13.808989+00:00: scheduled__2023-06-16T02:15:13.808989+00:00, state:failed, queued_at: 2023-06-16 02:15:43.892607+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:15:44.764743+00:00: scheduled__2023-06-16T02:15:44.764743+00:00, state:failed, queued_at: 2023-06-16 02:16:14.814517+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:16:15.539508+00:00: scheduled__2023-06-16T02:16:15.539508+00:00, state:failed, queued_at: 2023-06-16 02:16:45.656236+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:16:46.386266+00:00: scheduled__2023-06-16T02:16:46.386266+00:00, state:failed, queued_at: 2023-06-16 02:17:16.483121+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:19:04.300821+00:00: scheduled__2023-06-16T02:19:04.300821+00:00, state:failed, queued_at: 2023-06-16 02:19:34.372742+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:19:35.798811+00:00: scheduled__2023-06-16T02:19:35.798811+00:00, state:failed, queued_at: 2023-06-16 02:20:05.971171+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:20:06.652938+00:00: scheduled__2023-06-16T02:20:06.652938+00:00, state:failed, queued_at: 2023-06-16 02:20:36.723238+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:20:37.652863+00:00: scheduled__2023-06-16T02:20:37.652863+00:00, state:failed, queued_at: 2023-06-16 02:21:07.788611+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:21:08.117399+00:00: scheduled__2023-06-16T02:21:08.117399+00:00, state:failed, queued_at: 2023-06-16 02:21:38.164683+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:21:38.307140+00:00: scheduled__2023-06-16T02:21:38.307140+00:00, state:failed, queued_at: 2023-06-16 02:22:08.388476+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:22:08.789809+00:00: scheduled__2023-06-16T02:22:08.789809+00:00, state:failed, queued_at: 2023-06-16 02:22:38.897694+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:22:39.085420+00:00: scheduled__2023-06-16T02:22:39.085420+00:00, state:failed, queued_at: 2023-06-16 02:23:09.110073+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:23:16.296688+00:00: scheduled__2023-06-16T02:23:16.296688+00:00, state:failed, queued_at: 2023-06-16 02:23:46.350295+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:23:47.960313+00:00: scheduled__2023-06-16T02:23:47.960313+00:00, state:failed, queued_at: 2023-06-16 02:24:18.016890+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:24:18.409434+00:00: scheduled__2023-06-16T02:24:18.409434+00:00, state:failed, queued_at: 2023-06-16 02:24:48.492596+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:24:48.968714+00:00: scheduled__2023-06-16T02:24:48.968714+00:00, state:failed, queued_at: 2023-06-16 02:25:19.024020+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:25:19.867314+00:00: scheduled__2023-06-16T02:25:19.867314+00:00, state:failed, queued_at: 2023-06-16 02:25:49.969524+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:25:50.881646+00:00: scheduled__2023-06-16T02:25:50.881646+00:00, state:failed, queued_at: 2023-06-16 02:26:20.906202+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:26:20.881646+00:00: scheduled__2023-06-16T02:26:20.881646+00:00, state:failed, queued_at: 2023-06-16 02:26:50.902126+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:26:51.587961+00:00: scheduled__2023-06-16T02:26:51.587961+00:00, state:failed, queued_at: 2023-06-16 02:27:21.705091+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:29:09.565333+00:00: scheduled__2023-06-16T02:29:09.565333+00:00, state:failed, queued_at: 2023-06-16 02:29:39.631820+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:29:40.429701+00:00: scheduled__2023-06-16T02:29:40.429701+00:00, state:failed, queued_at: 2023-06-16 02:30:10.547364+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:30:11.576227+00:00: scheduled__2023-06-16T02:30:11.576227+00:00, state:failed, queued_at: 2023-06-16 02:30:41.641041+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:30:43.517795+00:00: scheduled__2023-06-16T02:30:43.517795+00:00, state:failed, queued_at: 2023-06-16 02:31:13.616276+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:31:13.986533+00:00: scheduled__2023-06-16T02:31:13.986533+00:00, state:failed, queued_at: 2023-06-16 02:31:44.089330+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DAG1 @ 2023-06-16 02:31:44.429874+00:00: scheduled__2023-06-16T02:31:44.429874+00:00, state:failed, queued_at: 2023-06-16 02:32:14.504142+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-18 10:05:54.999021+00:00: manual__2023-06-18T10:05:54.999021+00:00, state:success, queued_at: 2023-06-18 10:24:30.833572+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-16 22:35:00+00:00: scheduled__2023-06-16T22:35:00+00:00, state:success, queued_at: 2023-06-18 10:05:55.923416+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-17 22:35:00+00:00: scheduled__2023-06-17T22:35:00+00:00, state:success, queued_at: 2023-06-18 23:51:35.879738+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.418483+00:00: manual__2023-06-19T00:15:58.418483+00:00, state:success, queued_at: 2023-06-19 00:15:58.495470+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 00:15:58.855540+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 00:20:30.516868+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 00:22:12.980815+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 00:23:36.232913+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 00:26:10.768481+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 00:27:54.902080+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 00:28:39.761656+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 00:29:52.213194+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:01:33.386943+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:02:29.822423+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:04:06.529829+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:16:18.346129+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:17:12.579547+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:18:22.129791+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:19:36.027570+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:21:29.840869+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:26:13.098240+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:27:23.061099+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:32:49.188381+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:33:40.882122+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:35:46.082116+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:37:54.336867+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:39:09.539716+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:41:31.243062+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:47:30.557443+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:48:21.115662+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:49:13.364156+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:51:55.547756+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:53:28.907772+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:54:48.387244+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 03:56:05.639399+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 03:58:33.050502+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 05:33:53.413177+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 05:35:03.246360+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 05:35:57.819742+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:failed, queued_at: 2023-06-19 05:37:23.147275+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 05:39:41.703677+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 05:42:31.004556+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 00:15:58.708773+00:00: manual__2023-06-19T00:15:58.708773+00:00, state:success, queued_at: 2023-06-19 05:42:54.474650+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-18 10:07:00+00:00: scheduled__2023-06-18T10:07:00+00:00, state:success, queued_at: 2023-06-19 10:07:00.338547+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-19 11:44:19.143384+00:00: manual__2023-06-19T11:44:19.143384+00:00, state:success, queued_at: 2023-06-19 11:44:19.185068+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-19 11:44:19.143384+00:00: manual__2023-06-19T11:44:19.143384+00:00, state:success, queued_at: 2023-06-19 11:48:45.441308+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-18 19:55:00+00:00: scheduled__2023-06-18T19:55:00+00:00, state:success, queued_at: 2023-06-19 19:55:00.528769+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-18 22:35:00+00:00: scheduled__2023-06-18T22:35:00+00:00, state:success, queued_at: 2023-06-19 22:35:00.854881+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-19 10:07:00+00:00: scheduled__2023-06-19T10:07:00+00:00, state:success, queued_at: 2023-06-20 10:07:00.448786+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-19 19:55:00+00:00: scheduled__2023-06-19T19:55:00+00:00, state:success, queued_at: 2023-06-20 23:31:57.339384+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-19 22:35:00+00:00: scheduled__2023-06-19T22:35:00+00:00, state:success, queued_at: 2023-06-20 23:31:57.926396+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-20 10:07:00+00:00: scheduled__2023-06-20T10:07:00+00:00, state:success, queued_at: 2023-06-21 10:07:00.475232+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-20 19:55:00+00:00: scheduled__2023-06-20T19:55:00+00:00, state:success, queued_at: 2023-06-21 19:55:00.929108+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-20 22:35:00+00:00: scheduled__2023-06-20T22:35:00+00:00, state:success, queued_at: 2023-06-21 22:35:00.122301+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-21 10:07:00+00:00: scheduled__2023-06-21T10:07:00+00:00, state:success, queued_at: 2023-06-22 10:07:00.870787+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-21 19:55:00+00:00: scheduled__2023-06-21T19:55:00+00:00, state:success, queued_at: 2023-06-22 19:55:00.215092+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-21 22:35:00+00:00: scheduled__2023-06-21T22:35:00+00:00, state:success, queued_at: 2023-06-22 22:35:00.452198+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:48:10.151903+00:00: manual__2023-06-22T23:48:10.151903+00:00, state:failed, queued_at: 2023-06-22 23:48:10.290661+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:49:48.305265+00:00: manual__2023-06-22T23:49:48.305265+00:00, state:failed, queued_at: 2023-06-22 23:49:48.430072+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-22 23:56:59.880119+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-22 23:59:11.575558+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 00:00:20.395341+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 00:01:28.227248+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 00:20:51.213033+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 00:23:53.193051+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 00:29:25.850328+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 00:31:14.583429+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 00:37:48.719968+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 00:39:21.430029+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 00:43:48.095253+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 01:06:59.105899+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 01:12:52.428041+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 01:13:52.737247+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 01:20:04.730079+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 01:52:00.611408+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 01:55:00.309214+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 01:55:36.332541+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 02:01:31.375640+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 02:01:57.654058+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 02:03:02.255142+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 02:03:48.169292+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 02:04:13.234273+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-22 10:07:00+00:00: scheduled__2023-06-22T10:07:00+00:00, state:success, queued_at: 2023-06-23 10:07:00.332707+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:failed, queued_at: 2023-06-23 10:56:03.664768+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 23:56:59.687603+00:00: manual__2023-06-22T23:56:59.687603+00:00, state:success, queued_at: 2023-06-23 10:57:25.981070+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-22 19:55:00+00:00: scheduled__2023-06-22T19:55:00+00:00, state:success, queued_at: 2023-06-23 19:55:00.280140+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-22 22:35:00+00:00: scheduled__2023-06-22T22:35:00+00:00, state:success, queued_at: 2023-06-23 22:35:01.324388+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-23 10:07:00+00:00: scheduled__2023-06-23T10:07:00+00:00, state:success, queued_at: 2023-06-24 10:07:00.340658+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun NewDAG @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-24 22:14:19.936296+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-23 22:35:00+00:00: scheduled__2023-06-23T22:35:00+00:00, state:success, queued_at: 2023-06-24 22:35:00.306367+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-18 19:55:00+00:00: scheduled__2023-06-18T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:39.318311+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-19 19:55:00+00:00: scheduled__2023-06-19T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:39.594509+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-20 19:55:00+00:00: scheduled__2023-06-20T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:39.865295+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:41.234535+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-22 19:55:00+00:00: scheduled__2023-06-22T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:40.793584+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-21 19:55:00+00:00: scheduled__2023-06-21T19:55:00+00:00, state:success, queued_at: 2023-06-25 08:38:40.279122+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:failed, queued_at: 2023-06-25 09:35:50.766192+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-25 09:40:32.461054+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-25 09:51:36.973138+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-23 22:35:00+00:00: scheduled__2023-06-23T22:35:00+00:00, state:success, queued_at: 2023-06-25 10:03:57.159936+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-24 10:07:00+00:00: scheduled__2023-06-24T10:07:00+00:00, state:success, queued_at: 2023-06-25 10:07:00.931161+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-24 10:07:00+00:00: scheduled__2023-06-24T10:07:00+00:00, state:success, queued_at: 2023-06-25 10:08:47.611756+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-24 10:07:00+00:00: scheduled__2023-06-24T10:07:00+00:00, state:success, queued_at: 2023-06-25 10:12:59.655082+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-25 10:24:29.183145+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 11:54:08.505046+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 11:57:11.311431+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:06:17.124506+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:09:41.678455+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:11:17.531831+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 12:12:01.741754+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:17:16.843581+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:18:34.144603+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:19:39.773845+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 12:20:39.745600+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 13:37:04.831504+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-25 13:40:42.863711+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:41:27.822672+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:43:44.074960+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:46:37.996460+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:47:47.160034+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:50:25.535885+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:53:37.724213+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:55:33.187844+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:57:18.164308+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 13:59:58.652529+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 14:04:02.455638+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 14:10:00.451830+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 14:11:50.095911+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 14:12:25.691900+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-25 14:14:40.718508+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-24 19:55:00+00:00: scheduled__2023-06-24T19:55:00+00:00, state:success, queued_at: 2023-06-25 19:55:00.470199+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-24 22:35:00+00:00: scheduled__2023-06-24T22:35:00+00:00, state:failed, queued_at: 2023-06-25 22:35:00.982355+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 05:29:10.756044+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 05:29:48.941132+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 05:30:49.561807+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 05:31:32.817261+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:25:47.959363+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 06:28:48.497104+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 06:30:35.011689+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 06:32:57.031608+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 06:36:37.806466+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:38:56.057218+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:42:06.591020+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:43:11.289468+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:45:39.159298+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 06:51:14.843868+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 07:09:55.046852+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 08:58:01.005867+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 08:59:35.972008+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:00:50.023810+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:01:54.421141+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:02:22.236593+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:04:04.664548+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:08:58.744810+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:22:59.071775+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:25:36.866385+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:26:31.471154+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:27:30.878417+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:28:20.733910+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:29:22.535740+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:30:12.764489+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 09:31:19.269520+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:34:09.947985+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:35:39.454946+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:36:16.325148+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:37:46.720871+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:38:39.026115+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:39:46.548890+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:41:03.653374+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:52:46.498202+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:53:32.450506+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:55:21.466674+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:58:14.450740+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 09:59:32.859152+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 10:01:48.150323+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-25 10:07:00+00:00: scheduled__2023-06-25T10:07:00+00:00, state:success, queued_at: 2023-06-26 10:07:00.559134+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 11:30:08.252597+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 12:21:27.447188+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:22:31.982799+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:27:17.335864+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:29:21.788150+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:30:05.984915+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:31:30.624229+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:failed, queued_at: 2023-06-26 12:47:05.986989+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:47:55.094170+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 12:57:27.511416+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-26 13:01:24.267167+00:00: manual__2023-06-26T13:01:24.267167+00:00, state:failed, queued_at: 2023-06-26 13:01:24.315655+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:02:10.084881+00:00: manual__2023-06-26T13:02:10.084881+00:00, state:success, queued_at: 2023-06-26 13:02:10.163681+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:01:24.267167+00:00: manual__2023-06-26T13:01:24.267167+00:00, state:success, queued_at: 2023-06-26 13:02:27.163675+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:04:01.885189+00:00: manual__2023-06-26T13:04:01.885189+00:00, state:success, queued_at: 2023-06-26 13:04:01.930027+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:01:24.267167+00:00: manual__2023-06-26T13:01:24.267167+00:00, state:success, queued_at: 2023-06-26 13:04:59.403541+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-24 19:55:00+00:00: scheduled__2023-06-24T19:55:00+00:00, state:success, queued_at: 2023-06-26 13:06:57.117290+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:04:01.885189+00:00: manual__2023-06-26T13:04:01.885189+00:00, state:success, queued_at: 2023-06-26 13:06:57.117248+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:01:24.267167+00:00: manual__2023-06-26T13:01:24.267167+00:00, state:success, queued_at: 2023-06-26 13:06:57.117227+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-25 11:54:08.472237+00:00: manual__2023-06-25T11:54:08.472237+00:00, state:success, queued_at: 2023-06-26 13:06:57.117276+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:02:10.084881+00:00: manual__2023-06-26T13:02:10.084881+00:00, state:success, queued_at: 2023-06-26 13:06:57.117262+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 13:10:10.368204+00:00: manual__2023-06-26T13:10:10.368204+00:00, state:success, queued_at: 2023-06-26 13:10:10.430181+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-25 19:55:00+00:00: scheduled__2023-06-25T19:55:00+00:00, state:failed, queued_at: 2023-06-26 19:55:00.492234+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-25 22:35:00+00:00: scheduled__2023-06-25T22:35:00+00:00, state:failed, queued_at: 2023-06-26 22:35:01.025614+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-26 13:10:10.368204+00:00: manual__2023-06-26T13:10:10.368204+00:00, state:failed, queued_at: 2023-06-26 23:39:23.100481+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-26 13:10:10.368204+00:00: manual__2023-06-26T13:10:10.368204+00:00, state:failed, queued_at: 2023-06-26 23:40:14.908940+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun AOI @ 2023-06-26 23:42:51.976629+00:00: manual__2023-06-26T23:42:51.976629+00:00, state:failed, queued_at: 2023-06-26 23:42:52.008381+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun AOI @ 2023-06-26 23:45:18.045316+00:00: manual__2023-06-26T23:45:18.045316+00:00, state:success, queued_at: 2023-06-26 23:45:18.073996+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-25 22:35:00+00:00: scheduled__2023-06-25T22:35:00+00:00, state:failed, queued_at: 2023-06-27 00:07:16.961442+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-25 22:35:00+00:00: scheduled__2023-06-25T22:35:00+00:00, state:failed, queued_at: 2023-06-27 00:10:19.095831+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-25 22:35:00+00:00: scheduled__2023-06-25T22:35:00+00:00, state:failed, queued_at: 2023-06-27 00:13:15.063626+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-25 22:35:00+00:00: scheduled__2023-06-25T22:35:00+00:00, state:success, queued_at: 2023-06-27 00:14:59.167285+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:14:45.182811+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:16:36.610211+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:17:59.408610+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:18:58.690627+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:19:53.299979+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:failed, queued_at: 2023-06-27 01:30:43.415638+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 01:14:45.162047+00:00: manual__2023-06-27T01:14:45.162047+00:00, state:success, queued_at: 2023-06-27 01:35:44.737250+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-18 19:55:00+00:00: scheduled__2023-06-18T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:22.400061+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-19 19:55:00+00:00: scheduled__2023-06-19T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:22.635093+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-23 19:55:00+00:00: scheduled__2023-06-23T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:24.852153+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-20 19:55:00+00:00: scheduled__2023-06-20T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:22.954962+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-21 19:55:00+00:00: scheduled__2023-06-21T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:23.442068+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-24 19:55:00+00:00: scheduled__2023-06-24T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:26.610780+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-22 19:55:00+00:00: scheduled__2023-06-22T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:24.023373+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-25 19:55:00+00:00: scheduled__2023-06-25T19:55:00+00:00, state:success, queued_at: 2023-06-27 01:39:27.433958+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 01:39:34.528012+00:00: manual__2023-06-27T01:39:34.528012+00:00, state:success, queued_at: 2023-06-27 01:39:34.583658+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 01:41:29.817309+00:00: manual__2023-06-27T01:41:29.817309+00:00, state:success, queued_at: 2023-06-27 01:41:29.852897+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 01:42:13.159265+00:00: manual__2023-06-27T01:42:13.159265+00:00, state:success, queued_at: 2023-06-27 01:42:13.188436+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 01:42:13.159265+00:00: manual__2023-06-27T01:42:13.159265+00:00, state:success, queued_at: 2023-06-27 01:43:42.158954+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 01:44:24.717715+00:00: manual__2023-06-27T01:44:24.717715+00:00, state:success, queued_at: 2023-06-27 01:44:24.732213+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun SQLOperator @ 2023-06-27 04:16:26.295074+00:00: manual__2023-06-27T04:16:26.295074+00:00, state:failed, queued_at: 2023-06-27 04:16:26.326161+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-27 04:19:46.278649+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-27 04:21:12.363537+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-27 04:24:01.102689+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-27 06:27:56.601855+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:failed, queued_at: 2023-06-27 06:28:30.483648+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-26 10:07:00+00:00: scheduled__2023-06-26T10:07:00+00:00, state:success, queued_at: 2023-06-27 10:07:00.776014+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-26 19:55:00+00:00: scheduled__2023-06-26T19:55:00+00:00, state:success, queued_at: 2023-06-27 20:59:42.199787+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun SQLOperator @ 2023-06-26 13:46:00+00:00: scheduled__2023-06-26T13:46:00+00:00, state:failed, queued_at: 2023-06-27 20:59:42.355340+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun DB2DEMO @ 2023-06-26 22:35:00+00:00: scheduled__2023-06-26T22:35:00+00:00, state:failed, queued_at: 2023-06-27 22:57:16.061966+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_failure_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:failed, queued_at: 2023-06-28 10:05:15.369473+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:06:44.522172+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-28 10:07:00.425599+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:10:16.917718+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:11:28.151359+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:12:19.528524+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:19:09.537688+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:20:38.965149+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:24:51.702020+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 10:25:51.857411+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-28 11:01:54.157942+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 04:19:46.240200+00:00: manual__2023-06-27T04:19:46.240200+00:00, state:success, queued_at: 2023-06-28 11:24:00.811416+00:00. externally triggered: True>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 13:46:00.058735+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SimpleHTTP @ 2023-06-27 19:55:00+00:00: scheduled__2023-06-27T19:55:00+00:00, state:success, queued_at: 2023-06-28 19:55:00.121670+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun DB2DEMO @ 2023-06-27 22:35:00+00:00: scheduled__2023-06-27T22:35:00+00:00, state:success, queued_at: 2023-06-28 22:35:00.514461+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:07:13.463206+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:11:08.038167+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:12:24.276956+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:15:03.013906+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:22:12.346044+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:24:29.792099+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:27:54.287612+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:29:38.662515+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:30:17.643836+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:30:58.589862+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:31:18.431835+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:34:05.544645+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:35:43.323908+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:36:42.503294+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:37:19.148770+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:41:03.851303+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:41:53.219972+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:42:30.282923+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:43:29.076237+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:43:59.311628+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:45:02.910464+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:45:51.211634+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:46:27.193858+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:50:03.694508+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:51:49.825580+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-28 23:53:07.749643+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-28 23:56:02.761156+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-28 23:58:33.403477+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-28 23:59:19.499196+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:00:26.035237+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:01:22.715693+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:01:54.901307+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:03:13.831498+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:03:59.091280+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun ETLDEMO @ 2023-06-27 10:07:00+00:00: scheduled__2023-06-27T10:07:00+00:00, state:success, queued_at: 2023-06-29 00:04:44.019436+00:00. externally triggered: False>
+/usr/local/airflow/kinisi/msql.py : dag_success_callback
+<DagRun SQLOperator @ 2023-06-27 13:46:00+00:00: scheduled__2023-06-27T13:46:00+00:00, state:success, queued_at: 2023-06-29 00:11:31.185902+00:00. externally triggered: False>
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py
+Fail : dag_failure_callback from /usr/local/airflow/kinisi/msql.py

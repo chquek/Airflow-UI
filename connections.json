@@ -1,0 +1,72 @@
+{
+  "kinisi-db2-nossl": {
+    "conn_type": "DB2",
+    "description": "",
+    "login": "db2inst1",
+    "password": "db2inst1",
+    "host": "db2",
+    "port": 50000,
+    "schema": "SAMPLE",
+    "extra": ""
+  },
+  "kinisi-db2-ssl": {
+    "conn_type": "DB2",
+    "description": "",
+    "login": "db2inst1",
+    "password": "db2inst1",
+    "host": "db2",
+    "port": 60002,
+    "schema": "SAMPLE",
+    "extra": "{\"security_mechanism\": \"SECURITY=SSL;SSLServerCertificate=/certs/db2/mydbserver.arm\"}"
+  },
+  "kinisi-mssql": {
+    "conn_type": "mssql",
+    "description": "",
+    "login": "sa",
+    "password": "Passw0rd",
+    "host": "9.30.140.233",
+    "port": 1433,
+    "schema": "BPMDB",
+    "extra": ""
+  },
+  "kinisi-mysql-nossl": {
+    "conn_type": "mysql",
+    "description": "",
+    "login": "root",
+    "password": "mysqlinst",
+    "host": "mysql_nossl",
+    "port": 3306,
+    "schema": "sandy",
+    "extra": ""
+  },
+  "kinisi-mysql-ssl": {
+    "conn_type": "mysql",
+    "description": "",
+    "login": "root",
+    "password": "mysqlinst",
+    "host": "mysql_ssl",
+    "port": 3306,
+    "schema": "sandy",
+    "extra": "{\"charset\": \"utf8\", \"cursor\": \"sscursor\", \"local_infile\": true, \"unix_socket\": \"/var/socket\", \"ssl\": {\"ca\": \"/cert/ca.pem\"}}"
+  },
+  "kinisi-postgres": {
+    "conn_type": "postgres",
+    "description": "",
+    "login": "airflow",
+    "password": "airflow",
+    "host": "postgres",
+    "port": 5432,
+    "schema": "airflow",
+    "extra": ""
+  },
+  "kinisi-testflask": {
+    "conn_type": "http",
+    "description": "",
+    "login": "",
+    "password": null,
+    "host": "http",
+    "port": 7654,
+    "schema": "",
+    "extra": ""
+  }
+}

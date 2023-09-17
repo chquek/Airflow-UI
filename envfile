@@ -1,0 +1,23 @@
+hostname=$(hostname)
+
+
+case $host in
+
+    carmen )
+        export SERVERNAME=$hostname
+        export VALIDATE=NO
+		export GENALL=YES
+		export AIRFLOW_VERSION=2.5.3
+        ;;
+
+    * )
+        export SERVERNAME=${hostname}.kinisi.biz
+		export USERNAME=admin
+		export USERPASS=admin
+		export AIRFLOW_VERSION=2.5.3
+        export VALIDATE=YES
+		export GENALL=NO
+        ;;
+
+esac
+
