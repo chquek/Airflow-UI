@@ -14,10 +14,10 @@ This repo is to be used together with the [test environment](https://github.com/
 
 A VM with the following installed ( as root ) :
 
+- 4 CPUs and 8GB RAM
 - apt update
 - apt install docker -y
 - apt install docker-compose -y
-- git clone https://chquek:token@github.com/chquek/Airflow-UI.git
 - docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
 - usermod -aG docker quekch ( if running as non-root )
 
@@ -37,7 +37,7 @@ DONOTREMOVE/nginx.conf | nginx configuration | nginx:/etc/nginx/conf.d/nginx.con
 
 ## Sample envfile 
 
-Source this file.  Docker-compose will use these variables
+Amend and source the envfile.  Docker-compose will use these variables
 
 ```
 # Tested on 2.5.3 and 2.6.2
