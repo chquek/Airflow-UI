@@ -187,46 +187,6 @@ class Task :
         module_code = importlib.import_module ( module_name )
         return getattr(module_code,func)
 
-
-
-    '''
-    How does it know which function to run ?  The job is defined by the DAG in the following line :
-    stream[idx] = customPythonOperator ( task_id=f"{taskname}", python_callable=t.run , op_kwargs = {'job' : taskdetail } )
-    Print here goes to Airflow logs on the GUI page.  
-    '''
-    def run ( self , params , **context ):
-    
-        self.ti = context['task_instance']
-        self.dagparams = params
-        self.context = context
-        self.form = self.detail
-
-        taskname = self.task['name']
-        try :
-          code = self.code
-          arr = code.split('.')
-          func = arr.pop()
-          module = ".".join(arr)
-        except Exception as e :
-          logger.error (f"Failed to find Code section in dag={self.dagname} , task={taskname}")
-          return
-
-        # in case get("task_kwargs") returns None
-        try :
-            self.task_params = self.get("task_params")
-        except Exception as e :
-            kw = self.get("task_params")
-            self.task_params = {}
-
-        self.stream = self.xcom_pull ( )
-        # data is  ti=x,params=y,context=a,form=b ...
-        data = dict(task=self)
-        trun = importlib.import_module ( module  )
-        # logger.info(f"Run : task={taskname} , module = {module}/{func}")
-        ans = eval ( f"trun.{func}(**data)" )
-        return ans
-
-
 if __name__ == '__main__':
 	T = Task(task)
 	T.push()

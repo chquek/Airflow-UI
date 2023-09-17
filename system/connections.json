@@ -26,7 +26,7 @@
     "password": "Passw0rd",
     "host": "9.30.140.233",
     "port": 1433,
-    "schema": "BPMDB",
+    "schema": "TESTDB",
     "extra": ""
   },
   "kinisi-mysql-nossl": {
