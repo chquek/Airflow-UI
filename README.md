@@ -1,14 +1,16 @@
 # Airflow-UI
 
+## Introduction
+
 Kinisi Airflow UI is a Web base UI to design airflow DAGs graphically.  It is a containerised application with integrated Notebook and Airflow wbeserver built in to allow quick development of modules.  [See this link for more information and videos](https://www.kinisi.biz)
 
-This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  This test environment provides the following containers :
+This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  Some of the demo DAGs require connectivity to databases and REST server.  This test environment provides the following containers :
 
-- DB2
-- MySQL
+- DB2 ( SSL and non-SSL )
+- MySQL ( SSL and non-SSL )
 - Rest API server
 
-# Requirements 
+## Requirements 
 
 A VM with the following installed ( as root ) :
 
@@ -21,7 +23,7 @@ A VM with the following installed ( as root ) :
 
 ## Folders Airflow-UI
 
-Folder | Description | Exported to 
+Folder | Description | Mounted to 
 --- | --- | --- |
 dags | Location of generated DAGs | designer:/home/kinisi/dags , notebook:/home/kinisi/dags , and airflow:/home/airflow/dags
 certs | Database SSL certificates | notebook:/home/kinisi/certs` , airflow:/certs 
@@ -38,7 +40,8 @@ DONOTREMOVE/nginx.conf | nginx configuration | nginx:/etc/nginx/conf.d/nginx.con
 Source this file.  Docker-compose will use these variables
 
 ```
-export AIRFLOW_VERSION=2.5.3
+# Tested on 2.5.3 and 2.6.2
+export AIRFLOW_VERSION=2.5.3 
 export USERNAME=<whatever>
 export USERPASS=<whatever>
 export SERVERNAME=<hostname>
