@@ -1,6 +1,6 @@
 # Airflow-UI
 
-Kinisi Airflow UI is a Web base UI to design airflow DAGS graphically.  It is a containerised application with Notebook and Airflow wbeserver built in to allow quick development of modules.  [See this link for more information and videos](www.kinisi.biz)
+Kinisi Airflow UI is a Web base UI to design airflow DAGs graphically.  It is a containerised application with integrated Notebook and Airflow wbeserver built in to allow quick development of modules.  [See this link for more information and videos](https://www.kinisi.biz)
 
 This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  This test environment provides the following containers :
 
