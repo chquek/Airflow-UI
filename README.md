@@ -7,9 +7,20 @@ Kinisi Airflow UI
 
 A VM with the following installed :
 
-- docker
-- [docker compose](https://docs.docker.com/compose/install/)
+- apt update
+- apt install docker -y
+- apt install docker-compose -y
+- git clone https://chquek:token@github.com/chquek/Airflow-UI.git
 
+Cd to the Airflow-UI folder
+
+- cp DONOTREMOVE/menu.py /usr/local/bin
+- docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
+
+# This step only if require to run docker as non-root
+
+- groupadd docker ( if does not exist in /etc/group )
+- sudo usermod -aG docker quekch
 
 ## Folders /home/kinisi
 
@@ -40,78 +51,7 @@ export SERVERNAME=<hostname>
 export VALIDATE=YES       
 ```
 
-
 ## docker compose 
-
-``` yaml
-version: '3.1'
-
-services:
-
-  nginx :
-
-    image : nginx
-    depends_on : [ designer , airflow , notebook ]
-    volumes:
-      - ./DONOTREMOVE/nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - ./DONOTREMOVE/cert:/cert
-    ports :
-      - 443:443
-    command : [ "nginx" , "-g" , "daemon off;" ]
-
-  designer :
-    image : kinisi/designer
-    environment :
-      - BASIC_USERNAME=${USERNAME}
-      - BASIC_PASSWORD=${USERPASS}
-      - SERVER_NAME=${SERVERNAME}
-      - VALIDATE=${VALIDATE}
-      - GENALL=${GENALL}
-      - DB=/home/kinisi/system/kinisi.db
-    volumes:
-      - ./system:/home/kinisi/system
-      - ./dags:/home/kinisi/dags
-      - ./logs:/home/kinisi/logs
-
-  postgres:
-    image: postgres:9.6
-    environment:
-      - POSTGRES_USER=airflow
-      - POSTGRES_PASSWORD=airflow
-      - POSTGRES_DB=airflow
-      - PGDATA=/var/lib/postgresql/data/pgdata
-
-  airflow :
-    image: kinisi/airflow:${AIRFLOW_VERSION}
-    depends_on:
-      - postgres
-    environment:
-      - LOAD_EX=n
-      - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
-      - EXECUTOR=Local
-      - AIRFLOW__WEBSERVER__BASE_URL=http://x/airflow
-    command: webserver
-    volumes:
-      - ./dags:/home/airflow/dags
-      - ./user:/home/airflow/udm
-      - ./workarea:/workarea
-      - ./system:/home/kinisi/system
-      - ./logs:/home/airflow/klogs
-      - ./certs:/certs
-
-  notebook :
-    image: jupyter/base-notebook
-    build :
-      context : .
-    working_dir : /home/kinisi
-    volumes:
-      - ./dags:/home/kinisi/dags
-      - ./user:/home/kinisi/udm
-      - ./workarea:/home/kinisi/workarea
-      - ./logs:/home/kinisi/logs
-      - ./certs:/home/kinisi/certs
-    command : [ "jupyter", "lab", "--no-browser","--NotebookApp.token=''","--NotebookApp.password=''","--NotebookApp.base_url=/pyed"]
-```
 
 
 ## Sample files for /home/kinisi
