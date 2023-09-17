@@ -57,6 +57,9 @@ export VALIDATE=YES
 
 - access via https://hostname
 
+## Airflow credentials
+
+The airflow id is admin/admin.  It is built into the image.
 
 ## Restrictions
 
