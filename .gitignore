@@ -1,2 +1,10 @@
 __pycache__
 *.pyc
+pgdata/
+.ipynb_checkpoints/
+**/logs/
+dags/
+.temp
+.cache
+*.lock
+*-lock.*
