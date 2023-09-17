@@ -5,7 +5,7 @@ Kinisi Airflow UI
 
 # Requirements 
 
-A VM with the following installed :
+A VM with the following installed ( as root ) :
 
 - apt update
 - apt install docker -y
@@ -17,10 +17,10 @@ Cd to the Airflow-UI folder
 - cp DONOTREMOVE/menu.py /usr/local/bin
 - docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
 
-# This step only if require to run docker as non-root
+# This step only if require to run docker as non-root.  Run the following as root
 
 - groupadd docker ( if does not exist in /etc/group )
-- sudo usermod -aG docker quekch
+- usermod -aG docker quekch
 
 ## Folders /home/kinisi
 
