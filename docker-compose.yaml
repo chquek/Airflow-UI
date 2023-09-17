@@ -72,7 +72,7 @@ services:
       - ./workarea:/home/kinisi/workarea
       - ./logs:/home/kinisi/logs
       - ./certs:/home/kinisi/certs
-    command : [ "jupyter", "lab", "--no-browser","--NotebookApp.token=''","--NotebookApp.password=''","--NotebookApp.base_url=/pyed"]
+    command : [ "jupyter", "lab", "--allow-root","--no-browser","--NotebookApp.token=''","--NotebookApp.password=''","--NotebookApp.base_url=/pyed"]
 
 networks:
   default:
