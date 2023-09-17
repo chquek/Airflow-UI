@@ -56,6 +56,7 @@ services:
   notebook :
     image: jupyter/base-notebook
     working_dir : /home/kinisi
+    user : root
     volumes:
       - ./dags:/home/kinisi/dags
       - ./user:/home/kinisi/udm
