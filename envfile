@@ -11,7 +11,7 @@ case $host in
         ;;
 
     * )
-        export SERVERNAME=${hostname}.kinisi.biz
+        export SERVERNAME=${hostname}
 		export USERNAME=admin
 		export USERPASS=admin
 		export AIRFLOW_VERSION=2.5.3
