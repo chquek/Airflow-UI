@@ -34,7 +34,6 @@ services:
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
       - PGDATA=/var/lib/postgresql/data/pgdata
-
   airflow :
     image: kinisi/airflow:${AIRFLOW_VERSION}
     depends_on:
@@ -52,6 +51,7 @@ services:
       - ./system:/home/kinisi/system
       - ./logs:/home/airflow/klogs
       - ./certs:/certs
+      - ./pgdata:/var/lib/postgresql/data/pgdata
 
   notebook :
     image: jupyter/base-notebook
