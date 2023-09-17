@@ -15,10 +15,6 @@ services:
 
   designer :
     image : kinisi/designer
-    build :
-      context : .
-    user : ${USER}
-
     environment :
       - BASIC_USERNAME=${USERNAME}
       - BASIC_PASSWORD=${USERPASS}
@@ -41,9 +37,6 @@ services:
 
   airflow :
     image: kinisi/airflow:${AIRFLOW_VERSION}
-    build :
-      context : .
-    user : ${USER}
     depends_on:
       - postgres
     environment:
@@ -62,10 +55,7 @@ services:
 
   notebook :
     image: jupyter/base-notebook
-    build :
-      context : .
     working_dir : /home/kinisi
-    user : ${USER}
     volumes:
       - ./dags:/home/kinisi/dags
       - ./user:/home/kinisi/udm
