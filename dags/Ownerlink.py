@@ -33,12 +33,12 @@ DAG_ID = "Ownerlink"
 tasks = [{'id': 209, 'pid': 71, 'name': 'Task1', 'operator': 'Python', 'body': {'depend': [], 'detail': {'baseop': 'from udm.customOperator.Python import PythonOperator', 'callback': {}, 'dataset': None, 'doc_md': None, 'python_callable': 'udm.Template.info', 'runnable': "PythonOperator ( task_id=taskname,  ** ( t.kwargs ( [ 'python_callable' ] ) ) ,  default_args=task_opargs , doc_md=doc_md , **callback , **dataset , **other_args , params=dagparams )", 'task_opargs': {}, 'task_params': {}, 'trigger': 'all_success', 'other_args': {'trigger_rule': 'all_success'}}}, 'bfield': None}]
 dagparams = AttrDict({})
 
-dag_kwargs = AttrDict ( {'owner_links': AttrDict({'kinisi': 'https://docmd.kinisi.biz'}), 'concurrency': 8, 'catchup': True, 'tags': ['feature'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
-default_args = AttrDict({'owner': 'kinisi', 'start_date_old': '2023-08-02T22:50', 'start_date': '2023-09-10T00:00'})
+dag_kwargs = AttrDict ( {'owner_links': AttrDict({'kinisi': 'https://www.kinisi.biz'}), 'concurrency': 8, 'catchup': False, 'tags': ['feature'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
+default_args = AttrDict({'owner': 'kinisi', 'start_date_old': '2023-08-02T22:50', 'start_date': '2023-08-02T22:50'})
 
 '''
 '''
-dag_kwargs.owner_links = AttrDict({'kinisi': 'https://docmd.kinisi.biz'})
+dag_kwargs.owner_links = AttrDict({'kinisi': 'https://www.kinisi.biz'})
 dag_kwargs.tags = ['feature']
 
 dag_callbacks = AttrDict({})

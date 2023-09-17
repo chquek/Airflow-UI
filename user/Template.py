@@ -30,4 +30,5 @@ def niceprint ( *args , **context ) :
 
 # Used by ShortCircuit demo dag
 def shortcircuit ( *args , **context ) :
-    return dict(ans="hello world")
+    # return dict(ans="hello world")
+    return False
