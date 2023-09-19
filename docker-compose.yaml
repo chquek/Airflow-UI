@@ -14,7 +14,7 @@ services:
     command : [ "nginx" , "-g" , "daemon off;" ]
 
   designer :
-    image : kinisi/designer
+    image : kinisi/designer:v0.1
     environment :
       - BASIC_USERNAME=${USERNAME}
       - BASIC_PASSWORD=${USERPASS}
