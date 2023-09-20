@@ -1,4 +1,4 @@
-attrdict==2.0.1
-apache-airflow-providers-microsoft-mssql
-opencv-python==4.5.5.62
-mediapipe==0.8.7.1
+# attrdict==2.0.1
+# apache-airflow-providers-microsoft-mssql
+# opencv-python==4.5.5.62
+# mediapipe==0.8.7.1
