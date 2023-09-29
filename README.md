@@ -59,10 +59,6 @@ export VALIDATE=YES
 
 ## Airflow credentials
 
-The airflow id is admin/admin.  It is built into the image.
+The airflow id is admin/admin.  It is built into the image.  Need to login to airflow if performing admin task, such as defining connection.s
 
-## Restrictions
-
-- Only 5 new DAGs
-- Each DAG up to 10 tasks
-- Contact admin@kinisi.biz to increase limits
+## Contact admin@kinisi.biz to increase limits
