@@ -61,4 +61,4 @@ export VALIDATE=YES
 
 The airflow id is admin/admin.  It is built into the image.  Need to login to airflow if performing admin task, such as defining connection.s
 
-## Contact admin@kinisi.biz to increase limits
+## Contact : admin@kinisi.biz
