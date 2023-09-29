@@ -34,8 +34,8 @@ DAG_ID = "TriggerDAG"
 tasks = [{'id': 412, 'pid': 94, 'name': 'Do-Something', 'operator': 'Python', 'body': {'depend': [], 'detail': {'baseop': 'from udm.customOperator.Python import PythonOperator', 'callback': {}, 'dataset': None, 'doc_md': None, 'python_callable': 'udm.Template.info', 'runnable': "PythonOperator ( task_id=taskname,  ** ( t.kwargs ( [ 'python_callable' ] ) ) ,  default_args=task_opargs , doc_md=doc_md , **callback , **dataset , **other_args , params=dagparams )", 'task_opargs': {}, 'task_params': {}, 'trigger': 'all_success', 'other_args': {'trigger_rule': 'all_success'}}}, 'bfield': None}, {'id': 401, 'pid': 94, 'name': 'Trigger', 'operator': 'TriggerDag', 'body': {'depend': [412], 'detail': {'baseop': 'from airflow.operators.trigger_dagrun import TriggerDagRunOperator', 'callback': {}, 'dataset': None, 'doc_md': None, 'runnable': "TriggerDagRunOperator( task_id=taskname ,  ** ( t.kwargs ( [ 'trigger_dag_id' ] ) ) ,  default_args=task_opargs , doc_md=doc_md , **callback , **dataset , **other_args , params=dagparams )", 'task_opargs': {}, 'task_params': {}, 'trigger': 'all_success', 'trigger_dag_id': 'ETLDEMO', 'other_args': {'trigger_rule': 'all_success'}}}, 'bfield': None}]
 dagparams = AttrDict({})
 
-dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': False, 'tags': ['trigger', 'triggerdag'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
-default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-09-15T09:26', 'start_date': '2023-09-14T09:26'})
+dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': True, 'tags': ['trigger', 'triggerdag'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
+default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-09-15T09:26', 'start_date': '2023-09-28T00:00'})
 
 '''
 '''

@@ -34,7 +34,7 @@ tasks = [{'id': 376, 'pid': 3, 'name': 'AddRows', 'operator': 'SQL', 'body': {'d
 dagparams = AttrDict({'dagparam': 123})
 
 dag_kwargs = AttrDict ( {'description': '', 'owner_links': AttrDict({}), 'concurrency': 32, 'catchup': True, 'tags': ['database', 'DB2'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
-default_args = AttrDict({'retries': 2, 'retry_delay': 'datetime.timedelta(seconds=5)', 'email': ['airflow@example.com'], 'email_on_failure': False, 'email_on_retry': False, 'owner': 'anybody', 'start_date_old': '2023-07-08T18:00', 'start_date': '2023-09-10T00:00'})
+default_args = AttrDict({'retries': 2, 'retry_delay': 'datetime.timedelta(seconds=5)', 'email': ['airflow@example.com'], 'email_on_failure': False, 'email_on_retry': False, 'owner': 'anybody', 'start_date_old': '2023-07-08T18:00', 'start_date': '2023-09-28T00:00'})
 default_args['retry_delay'] = datetime.timedelta(seconds=5)
 
 '''

@@ -14,5 +14,7 @@ class DAG ( DAG ) :
     logger.info ( f"CUSTOMDAG - ARGS = {args} , KWARGS = {kwargs}" )
     logger.info ( dir(self) )
     '''
+    if ( kwargs['schedule'] == "@continuous" ) :
+        kwargs["max_active_runs"] = 1
     super().__init__(  *args , **kwargs )
     

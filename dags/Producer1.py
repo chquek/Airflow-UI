@@ -34,7 +34,7 @@ tasks = [{'id': 247, 'pid': 31, 'name': 'Task1', 'operator': 'Bash', 'body': {'d
 dagparams = AttrDict({'dagparam': 123})
 
 dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': True, 'tags': ['dataset', 'schedule', 'feature'], 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
-default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-07-24T18:13', 'start_date': '2023-09-10T00:00'})
+default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-07-24T18:13', 'start_date': '2023-09-28T00:00'})
 
 '''
 '''

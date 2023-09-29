@@ -4,6 +4,9 @@ from system.sqlhooks.mysql import MySql
 from system.sqlhooks.db2 import DB2
 from system.sqlhooks.postgres import Postgres
 from system.sqlhooks.mssql import MsSQL
+from udm.Hooks.Snowflake import Snowflake
+from udm.Hooks.Oracle import Oracle
+from udm.Hooks.Mongodb import Mongo
 
 import pprint
 import re
@@ -29,7 +32,10 @@ providers = {
     "mssql" : MsSQL ,
     "mysql" : MySql  ,
     "postgres" : Postgres ,
-    "db2" : DB2
+    "db2" : DB2 ,
+    "snowflake" : Snowflake ,
+    "oracle" : Oracle ,
+    "mongo" : Mongo
 }
 
 def run ( *args , **context ) :
@@ -45,6 +51,9 @@ def run ( *args , **context ) :
     "mysql" : { "mysql_conn_id" : connid   } ,
     "db2" : { "db2_conn_id" : connid } ,
     "postgres" : { "postgres_conn_id" : connid } ,  
+    "snowflake" : { "snowflake_conn_id" : connid } ,
+    "oracle" :  { "oracle_conn_id" : connid } ,
+    "mongo" :  { "mongo_conn_id" : connid } ,
   }
     
   try :

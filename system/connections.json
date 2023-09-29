@@ -19,6 +19,16 @@
     "schema": "SAMPLE",
     "extra": "{\"security_mechanism\": \"SECURITY=SSL;SSLServerCertificate=/certs/db2/mydbserver.arm\"}"
   },
+  "kinisi-jdbc": {
+    "conn_type": "jdbc",
+    "description": "",
+    "login": "db2inst1",
+    "password": "db2inst1",
+    "host": "jdbc:db2:db2:5000/SAMPLE",
+    "port": null,
+    "schema": "",
+    "extra": "{\"driver_class\": \"com.ibm.db2.jcc.DB2Driver\", \"driver_path\": \"/workarea/db2jcc4.jar:/workarea/db2jcc_license_cu.jar\"}"
+  },
   "kinisi-mssql": {
     "conn_type": "mssql",
     "description": "",
@@ -49,6 +59,16 @@
     "schema": "sandy",
     "extra": "{\"charset\": \"utf8\", \"cursor\": \"sscursor\", \"local_infile\": true, \"unix_socket\": \"/var/socket\", \"ssl\": {\"ca\": \"/certs/mysql/ca.pem\"}}"
   },
+  "kinisi-ora": {
+    "conn_type": "oracle",
+    "description": "",
+    "login": "system",
+    "password": "3388quek",
+    "host": "192.168.80.128",
+    "port": 1521,
+    "schema": "xepdb1",
+    "extra": ""
+  },
   "kinisi-postgres": {
     "conn_type": "postgres",
     "description": "",
@@ -58,6 +78,16 @@
     "port": 5432,
     "schema": "airflow",
     "extra": ""
+  },
+  "kinisi-sf": {
+    "conn_type": "snowflake",
+    "description": "",
+    "login": "quekch",
+    "password": "cde3$RFVqwertyu",
+    "host": "",
+    "port": null,
+    "schema": "TPCH_SF1",
+    "extra": "{\"account\": \"kwxddbh-iz54152\", \"database\": \"SNOWFLAKE_SAMPLE_DATA\", \"insecure_mode\": false}"
   },
   "kinisi-testflask": {
     "conn_type": "http",

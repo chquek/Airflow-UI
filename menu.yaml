@@ -1,6 +1,4 @@
 
-SHELLCONFIG : envfile
-
 UI :
   docker pull UI designer : docker pull kinisi/designer
   docker pull airflow-2.5.3 : docker pull kinisi/airflow:2.5.3

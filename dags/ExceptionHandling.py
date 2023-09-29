@@ -34,7 +34,7 @@ tasks = [{'id': 351, 'pid': 38, 'name': 'WithRetry', 'operator': 'Python', 'body
 dagparams = AttrDict({})
 
 dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': True, 'tags': ['feature'], 'doc_md': ''}  )
-default_args = AttrDict({'retries': 2, 'retry_delay': 'datetime.timedelta(minutes=2)', 'email': ['airflow@example.com'], 'email_on_failure': False, 'email_on_retry': False, 'owner': 'anybody', 'start_date_old': '2023-07-27T20:23', 'start_date': '2023-09-10T00:00'})
+default_args = AttrDict({'retries': 2, 'retry_delay': 'datetime.timedelta(minutes=2)', 'email': ['airflow@example.com'], 'email_on_failure': False, 'email_on_retry': False, 'owner': 'anybody', 'start_date_old': '2023-07-27T20:23', 'start_date': '2023-09-28T00:00'})
 default_args['retry_delay'] = datetime.timedelta(minutes=2)
 
 '''

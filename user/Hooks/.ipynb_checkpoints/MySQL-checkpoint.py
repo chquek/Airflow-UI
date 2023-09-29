@@ -11,7 +11,7 @@ INDENT = spaces
 class MySql ( MySqlHook ):
 
     def __init__(self, *args , **kwargs ):
-        super( MySql , self ).__init__(  *args, **kwargs)
+        super().__init__(  *args, **kwargs)
 
         conn = self.get_connection(self.mysql_conn_id)
         print ("after conn" , conn.schema )

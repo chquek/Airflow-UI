@@ -34,8 +34,8 @@ DAG_ID = "ImageProcessing"
 tasks = [{'id': 414, 'pid': 97, 'name': 'ModifyImage', 'operator': 'Python', 'body': {'depend': [413], 'detail': {'baseop': 'from udm.customOperator.Python import PythonOperator', 'callback': {}, 'dataset': None, 'doc_md': None, 'python_callable': 'udm.Face.modifyimage', 'runnable': "PythonOperator ( task_id=taskname,  ** ( t.kwargs ( [ 'python_callable' ] ) ) ,  default_args=task_opargs , doc_md=doc_md , **callback , **dataset , **other_args , params=dagparams )", 'task_opargs': {}, 'task_params': {'filename': '/workarea/face.jpg'}, 'trigger': 'all_success', 'other_args': {'trigger_rule': 'all_success'}}}, 'bfield': None}, {'id': 413, 'pid': 97, 'name': 'Pip', 'operator': 'Bash', 'body': {'depend': [], 'detail': {'baseop': 'from airflow.operators.bash import BashOperator', 'bash_command': 'pip install opencv-python==4.5.5.62 mediapipe==0.8.7.1', 'callback': {}, 'dataset': None, 'doc_md': None, 'runnable': "BashOperator ( task_id=taskname, ** ( t.kwargs ( [ 'bash_command' ] ) ) ,  default_args=task_opargs , doc_md=doc_md , **callback , **dataset , **other_args , params=dagparams )", 'task_opargs': {}, 'task_params': {}, 'trigger': 'all_success', 'other_args': {'trigger_rule': 'all_success'}}}, 'bfield': None}]
 dagparams = AttrDict({})
 
-dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': False, 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
-default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-09-15T17:41', 'start_date': '2023-09-01T17:41'})
+dag_kwargs = AttrDict ( {'owner_links': AttrDict({}), 'concurrency': 8, 'catchup': True, 'doc_md': '# Header - DAG Markdown notes\n\n- See this for : [default arg options](https://airflow.apache.org/docs/apache-airflow/1.10.8/tutorial.html#default-arguments)\n'}  )
+default_args = AttrDict({'owner': 'anybody', 'start_date_old': '2023-09-15T17:41', 'start_date': '2023-09-28T00:00'})
 
 '''
 '''
