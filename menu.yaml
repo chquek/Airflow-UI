@@ -1,8 +1,0 @@
-
-UI :
-  docker pull UI designer : docker pull kinisi/designer
-  docker pull airflow-2.5.3 : docker pull kinisi/airflow:2.5.3
-  docker pull airflow-2.6.2 : docker pull kinisi/airflow:2.6.2
-  start : docker-compose up -d --remove-orphans
-  stop : docker-compose down
-  logs : docker-compose logs -f [container]-[designer]
