@@ -7,7 +7,7 @@ services:
     image : nginx
     depends_on : [ designer , airflow , notebook ]
     volumes:
-     - type : bind
+      - type : bind
         source : ./DONOTREMOVE/nginx.conf
         target : /etc/nginx/conf.d/nginx.conf
       - ./DONOTREMOVE/cert:/cert
