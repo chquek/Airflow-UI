@@ -45,7 +45,7 @@ export VALIDATE=YES
 
 ## Folders Airflow-UI
 
-At the first start up, the following folders will be created automatically.
+At the first start up, the following folders will be created automatically with some sample DAGs.
 
 Folder | Description | Mounted to 
 --- | --- | --- |
