@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.2'
 
 services:
 
@@ -7,7 +7,9 @@ services:
     image : nginx
     depends_on : [ designer , airflow , notebook ]
     volumes:
-      - ./DONOTREMOVE/nginx.conf:/etc/nginx/conf.d/nginx.conf
+     - type : bind
+        source : ./DONOTREMOVE/nginx.conf
+        target : /etc/nginx/conf.d/nginx.conf
       - ./DONOTREMOVE/cert:/cert
     ports :
       - 443:443
@@ -26,6 +28,11 @@ services:
       - ./system:/home/kinisi/system
       - ./dags:/home/kinisi/dags
       - ./logs:/home/kinisi/logs
+      # The following is needed by notebook , airflow , and nginx
+      - ./user:/home/kinisi/user
+      - ./workarea:/home/kinisi/workarea
+      - ./DONOTREMOVE:/home/kinisi/DONOTREMOVE
+      - ./certs:/home/kinisi/certs
 
   postgres:
     image: postgres:14
