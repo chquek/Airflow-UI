@@ -21,7 +21,31 @@ A VM with the following installed ( as root ) :
 - docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
 - usermod -aG docker quekch ( if running as non-root )
 
+## Sample envfile 
+
+Amend and source the envfile.  Docker-compose will use these variables
+
+```
+# Tested on 2.5.3 and 2.6.2 and 2.7.1
+export AIRFLOW_VERSION=2.5.3 
+export USERNAME=<whatever>
+export USERPASS=<whatever>
+export SERVERNAME=<hostname>
+# If validate is set to NO , no prompt for ID/PW
+export VALIDATE=YES       
+```
+
+## Usage
+
+- docker-compose up -d
+
+- takes a while for all containers to start up :  nginx , postgres , airflow , designer , notebook
+
+- access via https://hostname
+
 ## Folders Airflow-UI
+
+At the first start up, the following folders will be created automatically.
 
 Folder | Description | Mounted to 
 --- | --- | --- |
@@ -35,34 +59,8 @@ workarea | Folders for working files | airflow:/workarea , notebood:/home/kinisi
 DONOTREMOVE/cert | http ssl certificates and nginx configuration | nginx:/cert
 DONOTREMOVE/nginx.conf | nginx configuration | nginx:/etc/nginx/conf.d/nginx.conf
 
-## Sample envfile 
-
-Amend and source the envfile.  Docker-compose will use these variables
-
-```
-# Tested on 2.5.3 and 2.6.2
-export AIRFLOW_VERSION=2.5.3 
-export USERNAME=<whatever>
-export USERPASS=<whatever>
-export SERVERNAME=<hostname>
-# If validate is set to NO , no prompt for ID/PW
-export VALIDATE=YES       
-```
-
-## Run
-
-- docker-compose up -d
-
-- takes a while for all containers to start up :  nginx , postgres , airflow , designer , notebook
-
-- access via https://hostname
 
 ## Airflow credentials
 
-The airflow id is admin/admin.  It is built into the image.
+The airflow id is admin/admin.  It is built into the image.  You will need this is need to do airflow admin task such as adding connections.
 
-## Restrictions
-
-- Only 5 new DAGs
-- Each DAG up to 10 tasks
-- Contact admin@kinisi.biz to increase limits
