@@ -4,12 +4,6 @@
 
 Kinisi Airflow UI is a Web base UI to design airflow DAGs graphically.  It is a containerised application with integrated Notebook and Airflow wbeserver built in to allow quick development of modules.  [See this link for more information and videos](https://www.kinisi.biz)
 
-This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  Some of the demo DAGs require connectivity to databases and REST server.  This test environment provides the following containers :
-
-- DB2 ( SSL and non-SSL )
-- MySQL ( SSL and non-SSL )
-- Rest API server
-
 ## Requirements 
 
 A VM with the following installed ( as root ) :
@@ -19,23 +13,11 @@ A VM with the following installed ( as root ) :
 - apt install docker -y
 - apt install docker-compose -y
 - docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
-- usermod -aG docker quekch ( if running as non-root )
-
-## Sample envfile 
-
-Amend and source the envfile.  Docker-compose will use these variables
-
-```
-# Tested on 2.5.3 and 2.6.2 and 2.7.1
-export AIRFLOW_VERSION=2.5.3 
-export USERNAME=<whatever>
-export USERPASS=<whatever>
-export SERVERNAME=<hostname>
-# If validate is set to NO , no prompt for ID/PW
-export VALIDATE=YES       
-```
+- usermod -aG docker userX ( if running as non-root )
 
 ## Usage
+
+- amend and source the envfile.  This file set the login id/pw to the UI default to admin/admin.
 
 - docker-compose up -d
 
@@ -43,7 +25,7 @@ export VALIDATE=YES
 
 - access via https://hostname
 
-## Folders Airflow-UI
+## Generated Folders
 
 At the first start up, the following folders will be created automatically with some sample DAGs.
 
@@ -59,8 +41,15 @@ workarea | Folders for working files | airflow:/workarea , notebood:/home/kinisi
 DONOTREMOVE/cert | http ssl certificates and nginx configuration | nginx:/cert
 DONOTREMOVE/nginx.conf | nginx configuration | nginx:/etc/nginx/conf.d/nginx.conf
 
-
 ## Airflow credentials
 
 The airflow id is admin/admin.  It is built into the image.  You will need this is need to do airflow admin task such as adding connections.
 
+## Sample Databases
+
+This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  Some of the demo DAGs require connectivity to databases and REST server.  This test environment provides the following containers :
+
+- DB2 ( SSL and non-SSL )
+- MySQL ( SSL and non-SSL )
+- Rest API server
+- Kafka
