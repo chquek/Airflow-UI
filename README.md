@@ -27,7 +27,7 @@ A VM with the following installed ( as root ) :
 
 ## Generated Folders
 
-At the first start up, the following folders will be created automatically with some sample DAGs.
+At the first start up, the following folders will be created automatically with some sample DAGs :
 
 Folder | Description | Mounted to 
 --- | --- | --- |
