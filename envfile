@@ -4,5 +4,5 @@ export SERVERNAME=${hostname}
 export USERNAME=admin
 export USERPASS=admin
 export KINISI_VER=v0.2
-export AIRFLOW_VERSION=2.6.2
+export AIRFLOW_VERSION=2.5.3
 export VALIDATE=YES

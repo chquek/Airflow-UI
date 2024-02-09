@@ -1,0 +1,19 @@
+#	make a docker file that runs python application
+FROM  python:3.8-alpine
+
+# ensure local python is preferred over distribution python
+ENV PATH /usr/local/bin:$PATH
+
+RUN /usr/local/bin/python -m pip install --upgrade pip
+RUN pip install flask
+
+RUN mkdir /src
+COPY testenv/restapi/app.py src
+COPY testenv/restapi/app_ssl.py src
+COPY testenv/restapi/domain.crt src
+COPY testenv/restapi/domain.key src
+COPY testenv/restapi/wrapper.sh src
+
+WORKDIR /src
+
+CMD [ "python3", "app.py" ]

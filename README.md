@@ -47,9 +47,12 @@ The airflow id is admin/admin.  It is built into the image.  You will need this 
 
 ## Sample Databases
 
-This repo is to be used together with the [test environment](https://github.com/chquek/Airflow-Testenv).  Some of the demo DAGs require connectivity to databases and REST server.  This test environment provides the following containers :
+Test connectivity commands
 
-- DB2 ( SSL and non-SSL )
-- MySQL ( SSL and non-SSL )
-- Rest API server
-- Kafka
+Subject | Command |
+--- | --- |
+DB2 | docker exec db2 su - db2inst1 -c "db2 connect to sample ; db2 'select * from employee'"
+MySQL non-ssl | docker exec -it mysql_nossl bash -c "echo 'select * from movies' \| mysql -u root -pmysqlinst sandy"
+MySQL ssl | docker exec -it mysql_ssl bash -c "echo 'select * from movies' \| mysql -u root -pmysqlinst sandy"
+HTTP server | docker exec -it nginx bash -c "curl http://http:7654/dummy"
+Postgres on production | docker exec postgres bash -c "echo '\l' \| psql -U airflow -d airflow"

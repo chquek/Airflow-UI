@@ -2,22 +2,24 @@ version: '3.2'
 
 services:
 
-  nginx :
+  nginx:
 
-    image : nginx
-    depends_on : [ designer , airflow , notebook ]
+    image: nginx
+    depends_on: [ designer, airflow, notebook ]
+    container_name: nginx
     volumes:
-      - type : bind
-        source : ./DONOTREMOVE/nginx.conf
-        target : /etc/nginx/conf.d/nginx.conf
+      - type: bind
+        source: ./DONOTREMOVE/nginx.conf
+        target: /etc/nginx/conf.d/nginx.conf
       - ./DONOTREMOVE/cert:/cert
-    ports :
+    ports:
       - 443:443
-    command : [ "nginx" , "-g" , "daemon off;" ]
+    command: [ "nginx", "-g", "daemon off;" ]
 
-  designer :
-    image : kinisi/designer:${KINISI_VER}
-    environment :
+  designer:
+    image: kinisi/designer:${KINISI_VER}
+    container_name: designer
+    environment:
       - BASIC_USERNAME=${USERNAME}
       - BASIC_PASSWORD=${USERPASS}
       - SERVER_NAME=${SERVERNAME}
@@ -36,13 +38,17 @@ services:
 
   postgres:
     image: postgres:14
+    container_name: postgres
     environment:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
       - PGDATA=/var/lib/postgresql/data/pgdata
-  airflow :
+
+  # run as user airflow
+  airflow:
     image: kinisi/airflow:${AIRFLOW_VERSION}
+    container_name: airflow
     depends_on:
       - postgres
     environment:
@@ -60,20 +66,75 @@ services:
       - ./certs:/certs
       - ./pgdata:/var/lib/postgresql/data/pgdata
 
-  notebook :
+  notebook:
     image: jupyter/base-notebook
-    working_dir : /home/kinisi
-    user : root
+    container_name: notebook
+    working_dir: /home/kinisi
+    user: root
     volumes:
       - ./dags:/home/kinisi/dags
       - ./user:/home/kinisi/udm
       - ./workarea:/home/kinisi/workarea
       - ./logs:/home/kinisi/logs
       - ./certs:/home/kinisi/certs
-    command : [ "jupyter", "lab", "--allow-root","--no-browser","--NotebookApp.token=''","--NotebookApp.password=''","--NotebookApp.base_url=/pyed"]
+    command:
+      [
+        "jupyter",
+        "lab",
+        "--allow-root",
+        "--no-browser",
+        "--NotebookApp.token=''",
+        "--NotebookApp.password=''",
+        "--NotebookApp.base_url=/pyed"
+      ]
+
+  # Test environment
+  # https://hub.docker.com/r/ibmcom/db2 , DB2 test environment
+  db2:
+    image: ibmcom/db2
+    hostname: db2host
+    container_name: db2
+    environment:
+      LICENSE: accept
+      DBNAME: testdb
+      SAMPLEDB: "true"
+      DB2INST1_PASSWORD: db2inst1
+    privileged: true
+    volumes:
+      # - ./DB2/config:/database/config
+      - ./testenv/DB2/keystore:/keystore
+      - ./testenv/DB2/scripts:/var/custom
+
+  http:
+    build:
+      context: .
+      dockerfile: testenv/restapi/dockerfile
+    image: "httpapi"
+    container_name: restapi_server
+    command: python3 app.py
+
+  # MySQL test environment
+  mysql_nossl:
+    image: mysql:5.7
+    container_name: mysql_nossl
+    environment:
+      MYSQL_DATABASE: sandy
+      MYSQL_ROOT_PASSWORD: mysqlinst
+    volumes:
+      - ./testenv/mysql/nossl/scripts/init1.sql:/docker-entrypoint-initdb.d/init1.sql
+
+  mysql_ssl:
+    image: cyprien/mysql-tls:5.7
+    container_name: mysql_ssl
+    environment:
+      MYSQL_DATABASE: sandy
+      MYSQL_ROOT_PASSWORD: mysqlinst
+    working_dir: /scripts
+    volumes:
+      - ./testenv/mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+      - ./testenv/mysql/ssl/init1.sql:/docker-entrypoint-initdb.d/init1.sql
 
 networks:
   default:
     external:
       name: kinisi-net
-
