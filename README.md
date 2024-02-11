@@ -10,9 +10,9 @@ A VM with the following installed ( as root ) :
 
 - 4 CPUs and 8GB RAM
 - apt update
-- apt install docker -y
+- snap install docker
 - apt install docker-compose -y
-- docker network create kinisi-net  ( this step is necessary because the test environment is on the same cluster )
+- docker network create kinisi-net
 - usermod -aG docker userX ( if running as non-root )
 
 ## Usage
@@ -43,11 +43,14 @@ DONOTREMOVE/nginx.conf | nginx configuration | nginx:/etc/nginx/conf.d/nginx.con
 
 ## Airflow credentials
 
-The airflow id is admin/admin.  It is built into the image.  You will need this is need to do airflow admin task such as adding connections.
+The airflow id is admin/admin.  It is built into the image.  You will need to login to airflow :
+
+- to perform airflow admin task such as adding connections.
+- browse DAG code on airflow UI
 
 ## Sample Databases
 
-Test connectivity commands
+Test connections using the following commands.
 
 Subject | Command |
 --- | --- |
